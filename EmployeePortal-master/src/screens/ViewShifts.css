@@ -1,0 +1,62 @@
+.shift-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 850px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    left: 32%;
+    top: 11%;
+}
+
+.text-test {
+    font-size: 1.5em;
+    position: absolute;
+    left: 45px;
+    top: 70%;
+}
+
+.calendar-test-shifts {
+    position: absolute;
+    left: 15px;
+    top: 14%;
+}
+
+.shift-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.shift-table th,
+.shift-table td {
+    padding: 10px 15px;
+}
+
+.shift-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.shift-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.shift-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.shift-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+
+.shiftsheader {
+    padding: 0px;
+    font-size: 25px;
+    border-radius: 25px;
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+}
